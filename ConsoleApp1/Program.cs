@@ -19,10 +19,8 @@ class Program
                 DirectoryInfo[] path = new DirectoryInfo(args[0]).GetDirectories();
                 for (int i=0; i< path.Length; i++)
                 {
-                    for (int j = 0; i < path.Rank; j++)
-                    {
+                   
                         Console.WriteLine(path[i]);
-                    }
                 }               
                 Console.ReadKey();
             }
