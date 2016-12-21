@@ -7,18 +7,18 @@ class Program
     {
         if (args[0] == null)
         {
-            System.Console.Write("Brak parametru");
+            Console.Write("Brak parametru");
             Environment.Exit(0);
         }
         else
         {
             if (Directory.Exists(args[0]))
             {
-                System.Console.Write("Katalog istnieje");
+                Console.Write("Katalog istnieje");
             }
             else
             {
-                System.Console.Write("Katalog nie istnieje");
+                Console.Write("Katalog nie istnieje");
             }
 
         }
